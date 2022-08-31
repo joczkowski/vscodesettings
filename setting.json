@@ -1,0 +1,76 @@
+{
+  "editor.rulers": [
+      120,
+    ],
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "terminal.integrated.fontSize": 16,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.tabSize": 2,
+    "editor.fontSize": 15,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-w>": false,
+      "<C-d>": false,
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "f"],
+        "commands": ["actions.find"]
+      }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "f"],
+        "commands": ["actions.find"]
+      }
+    ],
+    "editor.quickSuggestionsDelay": 0,
+    "ruby.intellisense": "rubyLocate",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "editor.lineNumbers": "relative",
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true,
+      "**/.hg/store/**": true,
+      "**/tmp/**": true,
+      "**/vendor/**": true
+    },
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "git.suggestSmartCommit": false,
+    "solargraph.useBundler": true,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.sideBar.location": "right",
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.inlayHints.renderColons": false,
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#ffffff"
+    },
+    "editor.wordWrap": "on",
+    "files.exclude": {
+      "**/.git": false
+    },
+    "files.autoSave": "afterDelay",
+    "go.toolsManagement.autoUpdate": true
+  }
